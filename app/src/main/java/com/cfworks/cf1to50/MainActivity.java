@@ -68,38 +68,23 @@ public class MainActivity extends Activity {
         b53=(ImageButton)findViewById(R.id.imageButton23);
         b54=(ImageButton)findViewById(R.id.imageButton24);
         b55=(ImageButton)findViewById(R.id.imageButton25);
-        b11.setMinimumHeight(bwidth);
-        b12.setMinimumHeight(bwidth);
-        b13.setMinimumHeight(bwidth);
-        b14.setMinimumHeight(bwidth);
-        b15.setMinimumHeight(bwidth);
-        b21.setMinimumHeight(bwidth);
-        b22.setMinimumHeight(bwidth);
-        b23.setMinimumHeight(bwidth);
-        b24.setMinimumHeight(bwidth);
-        b25.setMinimumHeight(bwidth);
-        b31.setMinimumHeight(bwidth);
-        b32.setMinimumHeight(bwidth);
-        b33.setMinimumHeight(bwidth);
-        b34.setMinimumHeight(bwidth);
-        b35.setMinimumHeight(bwidth);
-        b41.setMinimumHeight(bwidth);
-        b42.setMinimumHeight(bwidth);
-        b43.setMinimumHeight(bwidth);
-        b44.setMinimumHeight(bwidth);
-        b45.setMinimumHeight(bwidth);
-        b51.setMinimumHeight(bwidth);
-        b52.setMinimumHeight(bwidth);
-        b53.setMinimumHeight(bwidth);
-        b54.setMinimumHeight(bwidth);
-        b55.setMinimumHeight(bwidth);
+
+
         b11.setAdjustViewBounds(true);
         b11.setMaxWidth(bwidth);
-        b11.setBackgroundResource(R.drawable.icon1);
-        b12.setBackgroundResource(R.drawable.icon1);
-        b13.setBackgroundResource(R.drawable.icon1);
-        b14.setBackgroundResource(R.drawable.icon1);
-        b15.setBackgroundResource(R.drawable.icon1);
+        b12.setAdjustViewBounds(true);
+        b12.setMaxWidth(bwidth);
+        b13.setAdjustViewBounds(true);
+        b13.setMaxWidth(bwidth);
+        b14.setAdjustViewBounds(true);
+        b14.setMaxWidth(bwidth);
+        b15.setAdjustViewBounds(true);
+        b15.setMaxWidth(bwidth);
+        b11.setImageResource(R.drawable.icon1);
+        b12.setImageResource(R.drawable.icon1);
+        b13.setImageResource(R.drawable.icon1);
+        b14.setImageResource(R.drawable.icon1);
+        b15.setImageResource(R.drawable.icon1);
     }
 
     public static int dip2px(Context context, float dipValue){
